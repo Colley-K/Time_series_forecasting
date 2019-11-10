@@ -37,13 +37,7 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 >
 >The combination with the best signal was a year of past data aggregated daily or weekly.
 >
-**Autocorrelation Before:**
->
-![](./readme_files/c.png)
->
-**Autocorrelation After:**
->
-![](./readme_files/c3.png)
+![](./readme_files/ac.png)
 >
 **Problem 3:** The PLU codes were very granular. Thus, the data was really sparse with most items having around a zero demand per week.
 >
@@ -82,6 +76,8 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 **Feature Engineering:** Created 30 different columns based on time, holidays, and past/differenced sales
 
 **Hypertuning Parameters:** Found the optimal max trees and tree depth to account for overfitting.
+
+![](./readme_files/end.png)
 
 ![](./readme_files/e1.png)
 
