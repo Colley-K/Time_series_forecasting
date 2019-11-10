@@ -9,7 +9,7 @@ A local food distribution company buys produce from local farms and then distrib
 ## 1. APPROACH
 
 **There are two ways this type of problem can be approached:**
-*I experimented with both ways, but ultimately the hierarchical model was not generalizing well when it was deployed on the individual level, and I wasn't getting very accurate results. Thus, the winner was using a model for each of the items.
+I experimented with both ways, but ultimately the hierarchical model was not generalizing well when it was deployed on the individual level, and I wasn't getting very accurate results. Thus, the winner was using a model for each of the items.
 
 ![](./readme_files/1.png)
 
@@ -17,7 +17,7 @@ A local food distribution company buys produce from local farms and then distrib
 [EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
 
 #### Problems Encountered:
-1. The further back you modelled, the less it represented the trend and seasonality of the current year.
+PROBLEM 1. The further back you modelled, the less it represented the trend and seasonality of the current year.
 >
 >**WHY?**
 >
@@ -28,11 +28,11 @@ A local food distribution company buys produce from local farms and then distrib
 >Use the past year of data for the most accurate way model the future
 >
 
-2. The data was representing complete random walk processess with zero correlation to the past. 
+PROBLEM 2. The data was representing complete random walk processess with zero correlation to the past. 
 >
 >**Solution**
 >
->Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations with stationary data and non-stationary.
+>Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations with stationary data and non-stationary data.
 >
 >**WINNER**
 >
