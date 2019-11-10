@@ -62,5 +62,20 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 4. Random Forest Regression
 5. Light Gradient Boost model
 
-**Results:** Between the classical models and Prophet, Prophet with holidays and customized trends did the best. However, the naive model (the client's current model) was still winning around 11% of the time. Overall, these models were improving upon the existing model by 43%-50%, but it was not good that the naive model was still beating it 11% of the time. Next, I tried the tree based models, and they increased the accuracy by 60%-88%. This is because random forests and light gradient boost models are better at handling sparse datasets. However, the LGBM model was definitely overfitting, and no matter how I tried hyper tuning the parameters I was not able to completely fix this. After researching, I found out overfitting is a common problem when using a LGB model with a smaller dataset, and they really do best with large data.
+### Results:
+*Between the classical models and Prophet, Prophet with holidays and customized trends did the best. However, the naive model (the client's current model) was still winning around 11% of the time. Overall, these models were improving upon the existing model by 43%-50%, but it was not good that the naive model was still beating it 11% of the time. Next, I tried the tree based models, and they increased the accuracy by 60%-88%. This is because random forests and light gradient boost models are better at handling sparse datasets. However, the LGBM model was definitely overfitting, and no matter how I tried hyper tuning the parameters I was not able to completely fix this. After researching, I found out overfitting is a common problem when using a LGB model with a smaller dataset, and they really do best with large data.*
+
 ![](./readme_files/d.png)
+
+## 4. WINNER: Random Forest Regression
+
+Although the RFR is not as fast and efficient as the LGB model, I was able to successfully tune the overfitting issue with the RFR. Depending on the week, it's beating the clients current naive model by 60%-88% with an average error of around 5 units (compared to their current average error of 14 units per item/per week).
+
+**Hypertuning Parameters:**
+
+![](./readme_files/e1.png)
+
+**Accuracy:**
+
+![](./readme_files/e.png)
+
