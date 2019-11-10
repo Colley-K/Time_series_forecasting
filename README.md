@@ -25,7 +25,6 @@ There are two ways this type of problem can be approached:
 >
 >Use the past year of data for the most accurate way model the future
 >
-![](./readme_files/a2.png)
 
 2. The data was representing complete random walk processess with zero correlation to the past. 
 >
@@ -35,6 +34,9 @@ There are two ways this type of problem can be approached:
 >
 >**WINNER**
 >
->The combination with the best signal was a year of past data aggregated daily or weekly
+>The combination with the best signal was a year of past data aggregated daily or weekly.
+>
+**Before:**
 ![](./readme_files/c.png)
+**After:**
 ![](./readme_files/c3.png)
