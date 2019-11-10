@@ -8,7 +8,9 @@ A local food distribution company buys produce from local farms and then distrib
 
 ## 1. APPROACH
 
-There are two ways this type of problem can be approached:
+**There are two ways this type of problem can be approached:**
+*I experimented with both ways, but ultimately the hierarchical model was not generalizing well when it was deployed on the individual level, and I wasn't getting very accurate results. Thus, the winner was using a model for each of the items.
+
 ![](./readme_files/1.png)
 
 ## 2. EDA
@@ -30,20 +32,22 @@ There are two ways this type of problem can be approached:
 >
 >**Solution**
 >
->Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations by making the data stationary at first.
+>Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations with stationary data and non-stationary.
 >
 >**WINNER**
 >
 >The combination with the best signal was a year of past data aggregated daily or weekly.
 >
-**Before:**
+**Autocorrelation Before:**
 >
 ![](./readme_files/c.png)
 >
-**After:**
+**Autocorrelation After:**
+>
 ![](./readme_files/c3.png)
 >
 3. The PLU codes were very granular. Thus, the data was really sparse with most items having around a zero demand per week.
+>
 >**Solution**
 >
 >Try using a model that can handle a lot of sparsity.
