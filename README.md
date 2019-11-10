@@ -37,6 +37,15 @@ There are two ways this type of problem can be approached:
 >The combination with the best signal was a year of past data aggregated daily or weekly.
 >
 **Before:**
+>
 ![](./readme_files/c.png)
+>
 **After:**
 ![](./readme_files/c3.png)
+>
+3. The PLU codes were very granular. Thus, the data was really sparse with most items having around a zero demand per week.
+>**Solution**
+>
+>Try using a model that can handle a lot of sparsity.
+>
+![](./readme_files/e4.png)
