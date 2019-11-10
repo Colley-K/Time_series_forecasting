@@ -77,9 +77,9 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 
 **Hypertuning Parameters:** Found the optimal max trees and tree depth to account for overfitting.
 
-![](./readme_files/end.png)
+![](./readme_files/end2.png)
 
-![](./readme_files/e1.png)
+![](./readme_files/end.png)
 
 
 ## 5. CONCLUSION
