@@ -4,7 +4,6 @@ A local food distribution company buys produce from local farms and then distrib
 
 ***The aim of this study will be to create a useful predictive model to forecast the demands for each individual item’s PLU number. This represents a huge potential savings for the customer.***
 
-![alt text](https://drive.google.com/uc?id=1bkXZU02Xc1qFyWyJXQ9RetzWmpkPkuOW)
 ![](./readme_files/small.png)
 
 ## 1. APPROACH
@@ -12,7 +11,6 @@ A local food distribution company buys produce from local farms and then distrib
 **There are two ways this type of problem can be approached:**
 I experimented with both ways, but ultimately the hierarchical model was not generalizing well when it was deployed on the individual level, and I wasn't getting very accurate results. Thus, the winner was using a model for each of the items.
 
-![](./readme_files/1.png)
 ![](./readme_files/small2.png)
 
 ## 2. EDA
