@@ -16,7 +16,6 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 ## 2. EDA
 [EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
 
-#### Bumps in the Road:
 **PROBLEM 1:** The further back you modelled, the less it represented the trend and seasonality of the current year.
 >
 >**WHY?**
@@ -53,3 +52,15 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 >Try using a model that can handle a lot of sparsity.
 >
 ![](./readme_files/e4.png)
+
+## 3. Models
+[Model Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/4.%20Models)
+
+1. Naive Model
+2. Classical Models (SMA, SES, HLT, HWM)
+3. Prophet (Facebook)
+4. Random Forest Regression
+5. Light Gradient Boost model
+
+#### Results:
+![](./readme_files/d.png)
