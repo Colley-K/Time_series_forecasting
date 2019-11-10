@@ -4,13 +4,13 @@ A local food distribution company buys produce from local farms and then distrib
 
 ***The aim of this study will be to create a useful predictive model to forecast the demands for each individual item’s PLU number. This represents a huge potential savings for the customer.***
 
-![](./readme_files/options.jpeg)
+![alt text](https://drive.google.com/uc?id=1bkXZU02Xc1qFyWyJXQ9RetzWmpkPkuOW)
 
 ## APPROACH
 
 There are two ways this type of problem can be approached:
+![](./readme_files/options.jpeg)
 
-![alt text](https://drive.google.com/file/d/1xMzEQX4BSwYpZ6RK_geiq6SVtUDhuWKZ/view?usp=sharing)
 ## EDA
 ![EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
 
