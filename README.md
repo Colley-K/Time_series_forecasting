@@ -4,7 +4,7 @@ A local food distribution company buys produce from local farms and then distrib
 
 ***The aim of this study will be to create a useful predictive model to forecast the demands for each individual item’s PLU number. This represents a huge potential savings for the customer.***
 
-![](./readme_files/small.png)
+![alt text](https://drive.google.com/uc?id=1bkXZU02Xc1qFyWyJXQ9RetzWmpkPkuOW)
 
 ## 1. APPROACH
 
@@ -51,7 +51,7 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 >
 >Try using a model that can handle a lot of sparsity.
 >
-![](./readme_files/e4.png)
+![](./readme_files/small3.png)
 
 ## 3. Models
 [Model Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/4.%20Models)
