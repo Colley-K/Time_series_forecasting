@@ -79,8 +79,6 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 
 ![](./readme_files/end2.png)
 
-![](./readme_files/end.png)
-
 
 ## 5. CONCLUSION
 With a random forest regression, I was able to make timely and accurate forecasts for 3000 different invidual grocery items on a weekly basis.
