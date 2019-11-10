@@ -9,7 +9,7 @@ A local food distribution company buys produce from local farms and then distrib
 ## APPROACH
 
 There are two ways this type of problem can be approached:
-![](./readme_files/options.jpeg)
+![](./readme_files/1.png)
 
 ## EDA
 ![EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
