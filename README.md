@@ -70,13 +70,25 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 ## 4. WINNER: Random Forest Regression
 [RFR Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/Random_Forest_Code)
 
-Although the RFR is not as fast and efficient as the LGB model, I was able to successfully tune the overfitting issue with the RFR. Depending on the week, it's beating the clients current naive model by 60%-88% with an average error of around 5 units (compared to their current average error of 14 units per item/per week).
+**Overview:** Although the RFR is not as fast and efficient as the LGB model, I was able to successfully tune the overfitting issue with the RFR. Depending on the week, it's beating the clients current naive model by 60%-88% with an average error of around 5 units (compared to their current average error of 14 units per item/per week).
 
-**Hypertuning Parameters:**
+**Feature Engineering:** Created 30 different columns based on time, holidays, and past/differenced sales
+
+**Problem:** Tree based models are inherently not capable of predicting increases in future trends.
+>
+>**Solution**
+>
+>I take the log of the data before I model it, and then convert it back after making the predictions. This should help make the data a little more stationary which will help predict trends in the future.
+>
+
+**Hypertuning Parameters:** Found the optimal max trees and tree depth to account for overfitting.
 
 ![](./readme_files/e1.png)
 
 **Random Forest Accuracy:**
 
 ![](./readme_files/e.png)
+
+## 5. CONCLUSION
+With a random forest regression, I was able to make timely and accurate forecasts for 3000 different invidual grocery items.
 
