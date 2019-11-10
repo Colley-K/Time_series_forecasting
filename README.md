@@ -14,18 +14,20 @@ There are two ways this type of problem can be approached:
 ## EDA
 [EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
 
-#### Problems
+#### Problems Encountered:
 1. The further back you modelled, the less it represented the trend and seasonality of the current year.
->**WHY?**
->>with this size of a buisness, there was a LOT of outside influences that were making it impossible to have a consistent yearly trend.
->**Solution**
->>Use the past year of data for the most accurate way model the future
+**WHY?**
+>With this size of a buisness, there was a LOT of outside influences that were making it impossible to have a consistent yearly trend.
+
+**Solution**
+>Use the past year of data for the most accurate way model the future
+>
 ![](./readme_files/a2.png)
 
 2. The data was representing complete random walk processess with zero correlation to the past. 
->**Solution**
->>Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations by making the data stationary at first.
->**WINNER**
->>The combination with the best signal was a year of past data aggregated daily or weekly
+**Solution**
+>Try aggregating the data by daily, weekly, bi-monthly, monthly with historic data going back 2.5 years, 2 years, 1.5 year, 1 year and try all of these combinations by making the data stationary at first.
+**WINNER**
+>The combination with the best signal was a year of past data aggregated daily or weekly
 ![](./readme_files/c.png)
 ![](./readme_files/c3.png)
