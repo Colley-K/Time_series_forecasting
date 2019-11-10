@@ -16,8 +16,8 @@ I experimented with both ways, but ultimately the hierarchical model was not gen
 ## 2. EDA
 [EDA Notebooks](https://github.com/Colley-K/Time_series_forecasting/tree/master/2.%20EDA)
 
-#### Problems Encountered:
-PROBLEM 1. The further back you modelled, the less it represented the trend and seasonality of the current year.
+#### Bumps in the Road:
+**PROBLEM 1:** The further back you modelled, the less it represented the trend and seasonality of the current year.
 >
 >**WHY?**
 >
@@ -28,7 +28,7 @@ PROBLEM 1. The further back you modelled, the less it represented the trend and 
 >Use the past year of data for the most accurate way model the future
 >
 
-PROBLEM 2. The data was representing complete random walk processess with zero correlation to the past. 
+**PROBLEM 2:** The data was representing complete random walk processess with zero correlation to the past. 
 >
 >**Solution**
 >
@@ -46,7 +46,7 @@ PROBLEM 2. The data was representing complete random walk processess with zero c
 >
 ![](./readme_files/c3.png)
 >
-3. The PLU codes were very granular. Thus, the data was really sparse with most items having around a zero demand per week.
+**Problem 3:** The PLU codes were very granular. Thus, the data was really sparse with most items having around a zero demand per week.
 >
 >**Solution**
 >
