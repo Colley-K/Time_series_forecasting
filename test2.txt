@@ -1,2 +1,0 @@
-Hello, this is a git test, that is all
-The end. El fin.
